@@ -19,7 +19,7 @@ public class AdminJoin implements CommandExecutor {
             }
             Bukkit.broadcastMessage(ChatColor.YELLOW+arg0.getName()+" has joined the game");
             jugador.setGameMode(GameMode.SURVIVAL);
-            jugador.sendMessage(ChatColor.BLUE+"Ahora estas visible!");
+            jugador.sendMessage(ChatColor.BLUE+"Ahora estas visible!s");
         }else{
             Bukkit.getLogger().warning("No puedes usar esto en la consola");
             return false;
