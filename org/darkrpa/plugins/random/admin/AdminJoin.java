@@ -26,5 +26,10 @@ public class AdminJoin implements CommandExecutor {
         }
         return true;
     }
+
+    @Override
+    public boolean onDisable(){
+        
+    }
     
 }
